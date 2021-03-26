@@ -117,18 +117,27 @@ ul li a {
 
 .card {
     padding: 0 15px;
+    
 }
+
+.rown {
+    border-radius: 20px;
+}
+
 .card h3 {
     font-size: 25px;
     font-weight: 550;
 }
+
 .card p{
     margin-top: 10px;
 }
+
 .card img {
     margin-top: 18px;
     border-radius: 20px;
 }
+
 .radius {
     border-radius: 12px;
 }
@@ -183,12 +192,15 @@ ul li a {
 .photopic {
     margin-top: 26px;
 }
+
+
 .butpic {
     width: 880px;
     padding:10px 0px;
     margin-right: 80px;
     background: rgb(153, 191, 204);
     display: flex;
+    border-radius: 20px;
 }
 
 .button {
@@ -231,6 +243,7 @@ ul li a {
     width: 276px;
     height: 350px;
     position: relative;
+    border-radius: 20px;
 }
 
 .ved {
@@ -239,8 +252,9 @@ ul li a {
     position: relative;
     width: 276px;
     height: 350px;
-    
+    border-radius: 20px;
 }
+
 
 .inkac{
     background-color: rgb(4, 84, 114);
@@ -248,8 +262,12 @@ ul li a {
     position: relative;
     width: 276px;
     height: 350px;
+    border-radius: 20px;
 }
 
+.inkac img {
+    border-radius: 20px;
+}
 .tex {
     position: relative;
     padding: 10px 20px;
