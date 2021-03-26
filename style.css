@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+   
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    
+}
+.about {
+    padding:12px 0;
+    display: flex;
+    
+}
+
+.client {
+    font-size: 13px;
+    display: flex;
+    margin-left: 100px;
+
+}
+
+.corp a {
+    text-decoration: none;
+    color: #000;
+}
+.inputs {
+    margin-left: 15px;
+}
+
+nav {
+    display: flex;
+    margin-left: 200px;
+    
+}
+
+nav li {
+    list-style-type: none;
+    margin-left: 15px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #000;
+}
+
+.intbank {
+    color: green;
+   
+}
+
+ul {
+    display: flex;
+}
+ul li {
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 15px;
+   
+    color: #000;
+}
+
+.keys {
+    color: green;
+
+}
+
+.start {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #f0f3f6;
+}
+
+.txt {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    font-size: 15px;
+   
+}
+
+.section {
+    padding: 60px 0;
+}
+.paragrf h2{
+    text-align: center;
+    font-size: 52px;
+    font-weight: 650;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    
+}
+
+.pics img {
+    border-radius: 12px;
+    
+} 
+.cardimage {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.card {
+    padding: 0 15px;
+}
+.card h3 {
+    font-size: 25px;
+    font-weight: 550;
+}
+.card p{
+    margin-top: 10px;
+}
+.card img {
+    margin-top: 18px;
+    border-radius: 20px;
+}
+.radius {
+    border-radius: 12px;
+}
+
+.inform {
+    width: 1360px;
+    margin: auto;
+
+}
+
+.title-new {
+    padding: 0 30px;
+}
+.content {
+    background-color: #f0f3f6;
+}
+
+.content-new {
+    padding: 70px 50px;
+}
+
+
+.title-new h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.title-new p {
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.produc {
+    padding: 10px 80px;
+    width: 25%;
+}
+.emoji {
+    padding: 8px 0;
+    background-color: #f0f3f6;
+    border:none;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(46, 44, 44);
+    text-align: left;
+}
+
+.newprod {
+    display: flex;
+}
+
+.photopic {
+    margin-top: 26px;
+}
+.butpic {
+    width: 880px;
+    padding:10px 0px;
+    margin-right: 80px;
+    background: rgb(153, 191, 204);
+    display: flex;
+}
+
+.button {
+    padding:60px 60px 60px 20px;
+
+}
+
+.button h3 {
+    font-size: 23px;
+}
+.button p{
+    margin-top: 18px;
+    line-height: 1.5;
+}
+
+.connect {
+    cursor: pointer;
+    padding: 12px 25px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #00766c;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    margin-top: 60px;
+}
+
+.solut {
+    margin-top: 27px;
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lizing {
+    background: rgb(27, 118, 93);
+    color: #fff;
+    width: 276px;
+    height: 350px;
+    position: relative;
+}
+
+.ved {
+    background-color: rgb(5, 101, 113);
+    color: #fff;
+    position: relative;
+    width: 276px;
+    height: 350px;
+    
+}
+
+.inkac{
+    background-color: rgb(4, 84, 114);
+    color: #fff;
+    position: relative;
+    width: 276px;
+    height: 350px;
+}
+
+.tex {
+    position: relative;
+    padding: 10px 20px;
+    bottom: 120px;
+}
+.tex p {
+    margin-top: 10px;
+    font-size: 14px;
+}
