@@ -1,279 +1,660 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
 }
 
 .container {
-   
-    justify-content: space-around;
-    width: 80%;
-    margin: auto;
-    
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
 }
 .about {
-    padding:12px 0;
-    display: flex;
-    
+  padding: 12px 0;
+  display: flex;
 }
 
 .client {
-    font-size: 13px;
-    display: flex;
-    margin-left: 100px;
-
+  font-size: 13px;
+  display: flex;
+  margin-left: 100px;
 }
 
 .corp a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 .inputs {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 nav {
-    display: flex;
-    margin-left: 200px;
-    
+  display: flex;
+  margin-left: 200px;
 }
 
 nav li {
-    list-style-type: none;
-    margin-left: 15px;
+  list-style-type: none;
+  margin-left: 15px;
 }
-nav li a{
-    text-decoration: none;
-    font-size: 13px;
-    color: #000;
+nav li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #000;
 }
 
 .intbank {
-    color: green;
-   
+  color: green;
 }
 
 ul {
-    display: flex;
+  display: flex;
 }
 ul li {
-    list-style-type: none;
-    margin-left: 30px;
+  list-style-type: none;
+  margin-left: 30px;
 }
 
 ul li a {
-    text-decoration: none;
-    font-size: 15px;
-   
-    color: #000;
+  text-decoration: none;
+  font-size: 15px;
+
+  color: #000;
 }
 
 .keys {
-    color: green;
-
+  color: green;
 }
 
 .start {
-    margin-top: 20px;
-    width: 100%;
-    background-color: #f0f3f6;
+  margin-top: 20px;
+  width: 100%;
+  background-color: #f0f3f6;
 }
 
 .txt {
-    text-decoration: none;
-    color: #000;
-    display: flex;
-    justify-content: center;
-    padding: 25px 0;
-    font-size: 15px;
-   
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+  font-size: 15px;
 }
 
 .section {
-    padding: 60px 0;
+  padding: 60px 0;
+  height: 830px;
 }
-.paragrf h2{
-    text-align: center;
-    font-size: 52px;
-    font-weight: 650;
+.paragrf h2 {
+  text-align: center;
+  font-size: 52px;
+  font-weight: 650;
 }
 
 .pics {
-    display: flex;
-    justify-content: center;
-    padding: 30px 0;
-    
+    background: url("./");
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  position: relative;
 }
 
 .pics img {
-    border-radius: 12px;
-    
-} 
+  border-radius: 12px;
+}
+
+.fonttxt {
+  position: relative;
+  bottom: 400px;
+  left: 100px;
+  color: #fff;
+  line-height: 1.5;
+  width: 600px;
+}
+
+.tabeindex {
+  cursor: pointer;
+  position: relative;
+  height: 56px;
+  padding: 0 30px;
+  border-radius: 30px;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  top: 70px;
+}
+
+.nextbut {
+  position: relative;
+  bottom: 300px;
+  left: 80px;
+  color: #fff;
+  padding: 21px 0;
+  width: 1360px;
+  background: #000;
+  opacity: 50%;
+  border-radius: 10px;
+}
+
+.nexttxt {
+    padding: 10px 0;
+}
+.fonttxt h2 {
+  font-size: 40px;
+}
+
+.fonttxt p {
+  font-size: 20px;
+  margin-top: 10px;
+}
 .cardimage {
-    display: flex;
-    justify-content: center;
-    padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+
 }
 
 .card {
-    padding: 0 15px;
-    
+  padding: 0 15px;
 }
 
-.rown {
-    border-radius: 20px;
+.rown1 {
+  background: url("./people.png");
+  border-radius: 30px;
+  background-color: aqua;
+  width: 570px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.rown2 {
+  background: url("./credit.png");
+  border-radius: 30px;
+  background-color: aqua;
+  width: 570px;
+  height: 300px;
+  margin-top: 20px;
 }
 
 .card h3 {
-    font-size: 25px;
-    font-weight: 550;
+  font-size: 25px;
+  font-weight: 550;
 }
 
-.card p{
-    margin-top: 10px;
+.card p {
+  margin-top: 10px;
 }
 
 .card img {
-    margin-top: 18px;
-    border-radius: 20px;
+  margin-top: 18px;
+  border-radius: 20px;
 }
 
 .radius {
-    border-radius: 12px;
+  border-radius: 12px;
 }
 
 .inform {
-    width: 1360px;
-    margin: auto;
-
+  width: 1360px;
+  margin: auto;
+  margin-top: 20px;
 }
 
 .title-new {
-    padding: 0 30px;
+  padding: 0 30px;
 }
 .content {
-    background-color: #f0f3f6;
+  background-color: #f0f3f6;
 }
 
 .content-new {
-    padding: 70px 50px;
+  padding: 70px 50px;
 }
 
-
 .title-new h2 {
-    font-size: 30px;
-    font-weight: 500;
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .title-new p {
-    margin-top: 12px;
-    font-size: 20px;
-    font-weight: 400;
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .produc {
-    padding: 10px 80px;
-    width: 25%;
+  padding: 10px 80px;
+  width: 25%;
 }
 .emoji {
-    padding: 8px 0;
-    background-color: #f0f3f6;
-    border:none;
-    margin-top: 10px;
-    font-size: 20px;
-    color: rgb(46, 44, 44);
-    text-align: left;
+  padding: 8px 0;
+  background-color: #f0f3f6;
+  border: none;
+  margin-top: 10px;
+  font-size: 20px;
+  color: rgb(46, 44, 44);
+  text-align: left;
 }
 
 .newprod {
-    display: flex;
+  display: flex;
+  padding-bottom: 120px;
 }
 
 .photopic {
-    margin-top: 26px;
+  margin-top: 26px;
 }
 
-
 .butpic {
-    width: 880px;
-    padding:10px 0px;
-    margin-right: 80px;
-    background: rgb(153, 191, 204);
-    display: flex;
-    border-radius: 20px;
+  width: 880px;
+  padding: 10px 0px;
+  margin-right: 80px;
+  background: rgb(153, 191, 204);
+  display: flex;
+  border-radius: 20px;
+}
+
+.pic {
+  background: url("./bank_garanty_580x408@1x.png");
+  width: 400px;
+  height: 300px;
+  background-size: 430px;
+  background-repeat: no-repeat;
 }
 
 .button {
-    padding:60px 60px 60px 20px;
-
+  padding: 60px;
+  width: 340px;
+  margin: auto;
 }
 
 .button h3 {
-    font-size: 23px;
+  font-size: 23px;
 }
-.button p{
-    margin-top: 18px;
-    line-height: 1.5;
+.button p {
+  margin-top: 18px;
+  line-height: 1.5;
 }
 
 .connect {
-    cursor: pointer;
-    padding: 12px 25px;
-    border-radius: 20px;
-    color: #fff;
-    background-color: #00766c;
-    font-size: 16px;
-    font-weight: 600;
-    align-items: center;
-    justify-content: center;
-    border:none;
-    margin-top: 60px;
+  cursor: pointer;
+  padding: 12px 25px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #00766c;
+  font-size: 16px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin-top: 60px;
 }
 
 .solut {
-    margin-top: 27px;
-    width: 880px;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 27px;
+  width: 880px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .lizing {
-    background: rgb(27, 118, 93);
-    color: #fff;
-    width: 276px;
-    height: 350px;
-    position: relative;
-    border-radius: 20px;
+  background: rgb(27, 118, 93);
+  color: #fff;
+  width: 276px;
+  height: 350px;
+  position: relative;
+  border: none;
+  border-radius: 20px;
 }
 
 .ved {
-    background-color: rgb(5, 101, 113);
-    color: #fff;
-    position: relative;
-    width: 276px;
-    height: 350px;
-    border-radius: 20px;
+  background-color: rgb(5, 101, 113);
+  color: #fff;
+  position: relative;
+  width: 276px;
+  height: 350px;
+  border: 1px solid #000;
+  border: none;
+  border-radius: 20px;
 }
 
-
-.inkac{
-    background-color: rgb(4, 84, 114);
-    color: #fff;
-    position: relative;
-    width: 276px;
-    height: 350px;
-    border-radius: 20px;
+.inkac {
+  background-color: rgb(4, 84, 114);
+  color: #fff;
+  position: relative;
+  width: 276px;
+  height: 350px;
+  border: none;
+  border-radius: 20px;
 }
 
 .inkac img {
-    border-radius: 20px;
+  border-radius: 20px;
 }
 .tex {
-    position: relative;
-    padding: 10px 20px;
-    bottom: 120px;
+  position: relative;
+  padding: 10px 20px;
+  top: 230px;
+}
+
+.tex .h3 {
+  font-size: 30px;
 }
 .tex p {
-    margin-top: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.call {
+  width: 1360px;
+  margin: auto;
+  margin-top: 120px;
+}
+.appeal {
+  padding: 30px 40px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #f0f3f6;
+}
+
+.help-center {
+  padding: 50px 0;
+}
+.help-center h2 {
+  text-align: left;
+  padding: 35px 0;
+  font-size: 30px;
+  margin-left: 100px;
+  color: #000;
+}
+
+.help-center-input {
+  margin-left: 100px;
+}
+.help-input {
+  padding: 20px 200px;
+  font-size: 20px;
+  width: 980px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  text-align: start;
+}
+
+.newbutton {
+  height: 48px;
+  padding: 0px 30px;
+  border-radius: 30px;
+  position: relative;
+  right: 130px;
+  background-color: #00766c;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+}
+
+.suggestion {
+  margin-left: 70px;
+  padding: 20px 0;
+}
+.suggestion-item {
+  border: none;
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+.connecting {
+ 
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  position: relative;
+  height: 620px;
+}
+
+.connecting img {
+  border-radius: 20px;
+}
+
+.corporation {
+  position: relative;
+  bottom: 520px;
+  text-align: center;
+  color: #fff;
+}
+
+.corporation h2 {
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.corporation p {
+  font-size: 16px;
+  margin-top: 16px;
+  line-height: 24px;
+}
+
+.primarybutton {
+    border-radius: 30px;
+    height: 55px;
+    padding: 10px 35px;
+    margin-top: 40px;
+    background-color: #00766c;
+    border: none;
+    
+}
+.txtsize {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.quotes {
+    width: 70%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.cot h2 {
+    padding: 30px 0;
+    font-size: 32px;
+}
+
+.price {
+    display: flex;
+    
+}
+.left {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding-right: 60px;
+}
+
+.left p{
+    line-height: 1.7;
+    
+}
+.right p{
+    line-height: 1.7;
+    
+}
+
+.right {
+    display: flex;
+    justify-content:space-between;
+    margin-left: 120px;
+}
+.money {
+    margin-left: 60px;
+}
+
+.number {
+
+}
+.red {
+    color: red;
+}
+
+.change {
+    display: flex;
+}
+
+.red1{
+    color: red;
+    display: flex;
+}
+.red2 {
+    display: flex;
+    
+}
+.rednum {
+    margin-left: 5px;
+}
+
+.green {
+    margin-left: 5px;
+    display: flex;
+    color: green;
+}
+
+.green1 {
+    margin-left: ;
+}
+
+.date {
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+.information {
+    width: 100%;
+    background-color: #f0f3f6;
+    display: flex;
+    justify-content: space-between
+    
+}
+
+.column {
+    display: flex;
+    width: 1070px;
+    margin: auto;
+    padding: 30px 0;
+   
+}
+.menucolumn1 {
+    width: 33%;
+    
+    
+}
+.menucolumn2 {
+    width: 33%;
+    padding: 0 40px;
+}
+.menucolumn3 {
+    width: 33%;
+    padding: 0 40px;
+}
+.smalltxt a{
+    text-decoration: none;
+    color: #000;
+}
+.bold a {
+    text-decoration: none;
+    color: #000;
+}
+.smalltxt {
     font-size: 14px;
+    line-height: 1.6;
+    padding: 10px 0;
+}
+.bold {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.roolen {
+    display: flex;
+    justify-content: space-around;
+    background-color: #171a1e;
+    color: #fff;
+}
+
+.leftrol {
+    width: 710px;
+    
+}
+.element {
+    padding: 20px 0;
+    
+}
+
+.element {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.element a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.helpelement {
+    line-height: 1.6;
+    margin-left: 20px;
+}
+
+.info {
+    width: 500px;
+    padding: 20px 10px;
+}
+
+.info p {
+    color: #555;
+}
+.info2 {
+    width: 465px;
+    margin-top: 10px;
+}
+
+.addres {
+    padding: 20px 0;
+}
+
+.kitfooter {
+    padding: 5px 10px;
+    color: #555;
+}
+
+.rightrol {
+    width: 380px;
+    font-size: 16px;
+}
+
+.callonline {
+    padding: 10px 0;
+}
+
+.num {
+    display: block;
+}
+.line {
+    width: 470px;
+    height: 0.2px;
+    background-color: rgb(65, 65, 65);
+}
+
+.appstore {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    vertical-align: middle;
+    
 }
